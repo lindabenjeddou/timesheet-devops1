@@ -21,9 +21,10 @@ public class User implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 //lindalindouchgit
+	//lll
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private Long id;   
+	private Long id;
 	
 	private String firstName; 
 	
